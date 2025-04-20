@@ -1,0 +1,16 @@
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+
+`include "rtl/mem_design.sv"
+`include "rtl/mem_interface.sv"
+`include "tb/mem_top.sv"
+`include "tb/mem_sequence_item.sv"
+`include "tb/mem_sequence.sv"
+`include "tb/mem_sequencer.sv"
+`include "tb/mem_driver.sv"
+`include "tb/mem_monitor.sv"
+`include "tb/mem_agent.sv"
+`include "tb/mem_scoreboard.sv"
+`include "tb/mem_environment.sv"
+`include "tb/mem_base_test.sv"
+`include "tb/mem_wr_test.sv"
